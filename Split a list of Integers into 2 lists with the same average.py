@@ -46,6 +46,3 @@ testCases = [[2, 2, 33], [2, 4, 4], [], [1], [75, 2], [11, 23, 37, 45, 54, 86, 9
              [11, 23, 37, 45, 54, 86, 94], [10, 20, 30, 40, 50, 60, 70, 120], [2, 2, 2]]
 for lst in testCases:
     print(splitArraySameAverage(lst))
-
-# In the worst case scenario time complexity for the solving of O(N^2)
-# In the best case scenario we have a time complexity O(1)
