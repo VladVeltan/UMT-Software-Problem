@@ -31,7 +31,7 @@ def splitArraySameAverage(A):
         if length - nrInB == 0:             # we went to all possibility's
             return False
         avgC = (sum_tot - sumB) / (length - nrInB)  # calculate the AVG of C
-        i += 1  # increase the index
+        i += 1                              # increase the index
     return False
 
 
